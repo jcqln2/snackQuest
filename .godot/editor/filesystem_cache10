@@ -1,0 +1,7 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1760180198
+background.jpg::CompressedTexture2D::639002983111298048::1760180153::1760180202::1::::<><><>0<>0<>11f160d429639876c0f1d7da3f6e5edc<>res://.godot/imported/background.jpg-79b88fb6fb9ac2ea3dfbdde6ce8e779f.ctex::
+background.png::CompressedTexture2D/CompressedTexture2D::7519523495340962014::1760100963::1760101051::1::::<><><>0<>0<>8a3feee49657f626f3d45cf75224882b<>res://.godot/imported/background.png-98289422cd7d93003950872a7b97021f.ctex::
+icon.svg::CompressedTexture2D/CompressedTexture2D::262232752057322503::1760100963::1760101051::1::::<><><>0<>0<>fee000f0ed1f7621d5657fd52e57c9f0<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+node_2d.gd::GDScript::3278378796642285934::1760179920::0::1::::<>Node2D<><>0<>0<><>::
+node_2d.tscn::PackedScene::7500543271744791636::1760179921::0::1::::<><><>0<>0<><>::uid://bmycojj7u3hhe::::res://node_2d.gd<>uid://dferpocs1ojsg::::res://background.png

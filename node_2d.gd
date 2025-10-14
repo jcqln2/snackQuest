@@ -338,53 +338,6 @@ func draw_store_interior():
 	else:
 		# Fallback to drawing rectangles if image not found
 		draw_rect(Rect2(cam_pos.x - 640, cam_pos.y - 360, 1280, 720), Color(0.9, 0.9, 0.85))
-		draw_rect(Rect2(cam_pos.x - 640, cam_pos.y + 200, 1280, 160), Color(0.7, 0.7, 0.65))
-		draw_rect(Rect2(cam_pos.x - 200, cam_pos.y + 50, 400, 80), Color(0.5, 0.3, 0.2))
-	
-	# UI Panel for store menu
-	var ui_x = cam_pos.x - 300
-	var ui_y = cam_pos.y - 250
-	
-	draw_rect(Rect2(ui_x, ui_y, 600, 400), Color(0.1, 0.1, 0.1, 0.95))
-	draw_rect(Rect2(ui_x + 5, ui_y + 5, 590, 390), Color(0.2, 0.2, 0.2))
-	
-	# Title bar
-	draw_rect(Rect2(ui_x + 10, ui_y + 10, 580, 40), Color(0.0, 0.5, 0.4))
-	draw_rect(Rect2(ui_x + 15, ui_y + 15, 570, 30), Color(0.0, 0.6, 0.5))
-	
-	# Menu items
-	var item_y = ui_y + 70
-	
-	# Item 1: Calorie Mate
-	draw_rect(Rect2(ui_x + 20, item_y, 560, 50), Color(0.3, 0.3, 0.3))
-	draw_rect(Rect2(ui_x + 25, item_y + 5, 50, 40), Color(0.9, 0.7, 0.2))
-	draw_rect(Rect2(ui_x + 28, item_y + 8, 44, 34), Color(1.0, 0.85, 0.4))
-	
-	item_y += 60
-	
-	# Item 2: Onigiri
-	draw_rect(Rect2(ui_x + 20, item_y, 560, 50), Color(0.3, 0.3, 0.3))
-	draw_rect(Rect2(ui_x + 30, item_y + 10, 30, 30), Color(0.95, 0.95, 0.95))
-	draw_rect(Rect2(ui_x + 35, item_y + 25, 20, 10), Color(0.1, 0.1, 0.1))
-	
-	item_y += 60
-	
-	# Item 3: Energy Drink
-	draw_rect(Rect2(ui_x + 20, item_y, 560, 50), Color(0.3, 0.3, 0.3))
-	draw_rect(Rect2(ui_x + 30, item_y + 5, 20, 40), Color(0.2, 0.6, 0.9))
-	draw_rect(Rect2(ui_x + 32, item_y + 7, 16, 8), Color(0.8, 0.8, 0.8))
-	
-	item_y += 70
-	
-	# Player stats section
-	draw_rect(Rect2(ui_x + 20, item_y, 560, 30), Color(0.7, 1.0, 0.7))
-	
-	item_y += 40
-	draw_rect(Rect2(ui_x + 20, item_y, 560, 30), Color(1.0, 1.0, 0.7))
-	
-	# Instructions at bottom
-	item_y += 40
-	draw_rect(Rect2(ui_x + 20, item_y, 560, 25), Color(0.9, 0.9, 0.9))
 
 func draw_hud():
 	# Draw health bar in top-left of screen (relative to camera)

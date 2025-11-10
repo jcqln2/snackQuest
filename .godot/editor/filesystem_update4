@@ -1,2 +1,7 @@
 res://node_2d.tscn
 res://node_2d.gd
+res://scripts/store_manager.gd
+res://scripts/rat_manager.gd
+res://scripts/game_renderer.gd
+res://scripts/world_manager.gd
+res://scripts/player.gd
